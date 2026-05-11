@@ -1,8 +1,0 @@
-from django.apps import AppConfig
-
-
-class DetectionApiConfig(AppConfig):
-    default_auto_field = "django.db.models.BigAutoField"
-    name = "detection_api"
-    verbose_name = "Disaster Detection & Management API"
-
