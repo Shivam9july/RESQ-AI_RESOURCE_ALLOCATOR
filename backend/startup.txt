@@ -1,0 +1,11 @@
+Install dependencies:
+pip install -r ../requirements.txt
+
+Prepare the database and static files:
+python manage.py migrate
+python manage.py collectstatic --noinput
+
+Run the production WSGI server:
+waitress-serve --listen=0.0.0.0:%PORT% resq.wsgi:application
+
+On Linux hosts, use $PORT instead of %PORT%.

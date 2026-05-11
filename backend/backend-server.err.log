@@ -1,0 +1,40 @@
+Forbidden: /api/incidents/
+[12/May/2026 01:18:41] "GET /api/incidents/ HTTP/1.1" 403 58
+[12/May/2026 01:18:41,576] - Broken pipe from ('127.0.0.1', 58323)
+[12/May/2026 01:18:42] "POST /api/auth/login/ HTTP/1.1" 200 113
+Bad Request: /api/auth/login/
+[12/May/2026 01:18:42] "POST /api/auth/login/ HTTP/1.1" 400 39
+[12/May/2026 01:18:42] "GET /api/auth/me/ HTTP/1.1" 200 113
+[12/May/2026 01:18:42,270] - Broken pipe from ('127.0.0.1', 58321)
+[12/May/2026 01:18:42] "POST /api/detect/fire/ HTTP/1.1" 201 490
+[12/May/2026 01:18:42] "GET /api/incidents/ HTTP/1.1" 200 12016
+[12/May/2026 01:18:42] "POST /api/auth/logout/ HTTP/1.1" 204 0
+Forbidden: /api/auth/me/
+[12/May/2026 01:18:42] "GET /api/auth/me/ HTTP/1.1" 403 58
+[12/May/2026 01:18:42,670] - Broken pipe from ('127.0.0.1', 58322)
+[12/May/2026 01:20:06] "POST /api/auth/login/ HTTP/1.1" 200 113
+[12/May/2026 01:20:06] "GET /api/incidents/ HTTP/1.1" 200 12016
+[12/May/2026 01:20:06,842] - Broken pipe from ('127.0.0.1', 60644)
+Not Found: /api
+[12/May/2026 01:20:28] "GET /api HTTP/1.1" 404 2641
+Not Found: /favicon.ico
+[12/May/2026 01:20:28] "GET /favicon.ico HTTP/1.1" 404 2665
+[12/May/2026 01:22:39] "POST /api/auth/login/ HTTP/1.1" 200 113
+[12/May/2026 01:22:39] "GET /api/incidents/ HTTP/1.1" 200 12016
+[12/May/2026 01:22:39,761] - Broken pipe from ('127.0.0.1', 52164)
+[12/May/2026 01:25:26] "GET / HTTP/1.1" 200 586
+[12/May/2026 01:25:26,918] - Broken pipe from ('127.0.0.1', 64440)
+Forbidden: /api/incidents/
+[12/May/2026 01:25:38] "GET /api/incidents/ HTTP/1.1" 403 58
+[12/May/2026 01:25:38,331] - Broken pipe from ('127.0.0.1', 56696)
+Bad Request: /api/auth/login/
+[12/May/2026 01:25:38] "POST /api/auth/login/ HTTP/1.1" 400 39
+[12/May/2026 01:25:39,010] - Broken pipe from ('127.0.0.1', 56695)
+[12/May/2026 01:25:39] "POST /api/auth/login/ HTTP/1.1" 200 113
+[12/May/2026 01:25:39] "GET /api/auth/me/ HTTP/1.1" 200 113
+[12/May/2026 01:25:39] "POST /api/detect/fire/ HTTP/1.1" 201 490
+[12/May/2026 01:25:39] "GET /api/incidents/ HTTP/1.1" 200 12507
+[12/May/2026 01:25:39] "POST /api/auth/logout/ HTTP/1.1" 204 0
+[12/May/2026 01:25:39,542] - Broken pipe from ('127.0.0.1', 56698)
+[12/May/2026 01:26:55] "GET / HTTP/1.1" 200 586
+[12/May/2026 01:26:55,806] - Broken pipe from ('127.0.0.1', 49309)
